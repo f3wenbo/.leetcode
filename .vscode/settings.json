@@ -1,0 +1,9 @@
+{
+  "python.pythonPath": "C:\\Users\\4073372\\AppData\\Local\\Continuum\\anaconda3\\python.exe",
+  "files.associations": {
+    "*.sdf": "xml",
+    "*.world": "xml",
+    "Pipfile": "pip-requirements",
+    "vector": "cpp"
+  }
+}
