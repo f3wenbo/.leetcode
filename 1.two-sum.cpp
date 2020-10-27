@@ -55,6 +55,8 @@
  * 
  * 
  */
+#include <vector>
+#include <unordered_map>
 
 // @lc code=start
 class Solution {

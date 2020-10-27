@@ -43,6 +43,8 @@
  * 
  */
 
+#include <vector>
+
 // @lc code=start
 class Solution {
 public:
@@ -62,11 +64,10 @@ private:
     void dfs(vector<vector<char>>& grid, int row, int col, int m, int n) {
         if (row < 0 || col < 0 || row >= m || col >= n || grid[row][col] == '0') return;
         grid[row][col] = '0';
-        dfs(grid, row+1, col, m, n);
-        dfs(grid, row-1, col, m, n);
-        dfs(grid, row, col+1, m, n);
-        dfs(grid, row, col-1, m, n);
+        dfs(grid, row + 1, col, m, n);
+        dfs(grid, row - 1, col, m, n);
+        dfs(grid, row, col + 1, m, n);
+        dfs(grid, row, col - 1, m, n);
     }
 };
 // @lc code=end
-

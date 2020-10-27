@@ -32,6 +32,8 @@
  * 
  */
 
+#include <vector>
+
 // @lc code=start
 class Solution {
 public:
